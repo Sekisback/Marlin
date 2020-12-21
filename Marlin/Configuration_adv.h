@@ -3237,7 +3237,7 @@
   #define USER_SCRIPT_RETURN  // Return to status screen after a script
 
   #define USER_DESC_1 "Home & ABL"
-  #define USER_GCODE_1 "G28\nG29\nM500" // Home, ABL, Save mesh to EEPROM
+  #define USER_GCODE_1 "G28\nM155 S30\n@BEDLEVELVISUALIZER\nG29 T\nM155 S3\nM500" // Home, ABL, Save mesh to EEPROM
 
   /**
   #define USER_DESC_2 "Preheat for " PREHEAT_1_LABEL
