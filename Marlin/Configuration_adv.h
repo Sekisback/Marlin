@@ -3239,10 +3239,10 @@
   #define USER_DESC_1 "Home & ABL BV"
   #define USER_GCODE_1 "G28\nM155 S30\nM118 E1 @BEDLEVELVISUALIZER\nG29 T\nM155 S3\nM500" // Home, ABL, Save mesh to EEPROM
 
-  /**
+ 
   #define USER_DESC_2 "Preheat for " PREHEAT_1_LABEL
   #define USER_GCODE_2 "M140 S" STRINGIFY(PREHEAT_1_TEMP_BED) "\nM104 S" STRINGIFY(PREHEAT_1_TEMP_HOTEND)
-
+ 
   #define USER_DESC_3 "Preheat for " PREHEAT_2_LABEL
   #define USER_GCODE_3 "M140 S" STRINGIFY(PREHEAT_2_TEMP_BED) "\nM104 S" STRINGIFY(PREHEAT_2_TEMP_HOTEND)
 
@@ -3251,7 +3251,7 @@
 
   #define USER_DESC_5 "Home & Info"
   #define USER_GCODE_5 "G28\nM503"
-  */
+  
 #endif
 
 /**
