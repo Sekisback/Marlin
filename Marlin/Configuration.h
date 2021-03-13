@@ -1514,10 +1514,10 @@
 #define PREHEAT_3_TEMP_BED     50
 #define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
 
-#define PREHEAT_3_LABEL       "CARBON"
-#define PREHEAT_3_TEMP_HOTEND 220
-#define PREHEAT_3_TEMP_BED     70
-#define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
+#define PREHEAT_4_LABEL       "CARBON"
+#define PREHEAT_4_TEMP_HOTEND 220
+#define PREHEAT_4_TEMP_BED     70
+#define PREHEAT_4_FAN_SPEED     0 // Value from 0 to 255
 
 /**
  * Nozzle Park
