@@ -133,7 +133,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Printer V1.2"
+#define CUSTOM_MACHINE_NAME "Printer"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1512,6 +1512,11 @@
 #define PREHEAT_3_LABEL       "TPU"
 #define PREHEAT_3_TEMP_HOTEND 220
 #define PREHEAT_3_TEMP_BED     50
+#define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
+
+#define PREHEAT_3_LABEL       "CARBON"
+#define PREHEAT_3_TEMP_HOTEND 220
+#define PREHEAT_3_TEMP_BED     70
 #define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
 
 /**
